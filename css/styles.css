@@ -14,17 +14,18 @@ body {
 
 /* Header */
 header {
-    padding: 30px 250px;
+    padding: 23px 12%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#06283D;
+    background-color:#575BFD;
     color:white;
+    box-shadow: 5px 10px 8px #888888;
 }
 /* Header - Logo (Left side) */
 header img {
-    width:80px;
-    height: 80px;
+    width:100px;
+    height: auto;
 }
 
 /* Header - List (Right side) */
@@ -37,4 +38,38 @@ header li {
 /* Header - List - Links */
 header li a {
     
+}
+
+/* Main */
+main {
+    padding: 6% 16%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Main - Content (Left Side) */
+main .content {
+
+}
+
+/* Main - Content - All */
+main .content * {
+    font-size: 54px;
+}
+/* Main - Content - H1 */
+main .content h1 {
+    color: #170C89;
+}
+
+/* Main - Content - H3 */
+main .content h3 {
+    color: #575BFD;
+}
+
+
+/* Main - Image (Right Side) */
+main img {
+    width:550px;
+    height: auto;
 }
