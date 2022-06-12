@@ -11,10 +11,6 @@ main .content {
 
 }
 
-/* Main - Content - All */
-main .content * {
-    font-size: 54px;
-}
 /* Main - Content - H1 */
 main .content h1 {
     font-size: 68px;
@@ -29,13 +25,13 @@ main .content h3 {
 
 /* Main - Content - P */
 main .content p {
-    font-size: 32px;
+    font-size: 24px;
 }
 
 /* Main - Content - Button */
 main .content button {
     display: inline-block;
-    border-radius: 100px;
+    border-radius: 2em;
     background-color: #170C89;
     border: none;
     color: #FFFFFF;
@@ -43,14 +39,18 @@ main .content button {
     font-size: 28px;
     padding: 20px;
     width: 200px;
-    transition: all 0.5s;
+    transition: all 0.3s;
     cursor: pointer;
-    margin: 5px;
+    margin: 40px 0px;
 }
+/* Main - Content - Button(Hover) */
+main .content button:hover {
+    filter: brightness(1.5);
 
+}
 
 /* Main - Image (Right Side) */
 main img {
-    width:550px;
+    width:590px;
     height: auto;
 }

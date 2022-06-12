@@ -11,17 +11,41 @@ header {
 /* Header - Logo (Left side) */
 header img {
     width:130px;
+    cursor: pointer;
     height: auto;
+    transition: all 0.3s;
 }
+
+/* Header - Logo - Hover (Left side) */
+header img:hover {
+    transition: all 0.3s;
+}
+
+
 
 /* Header - List (Right side) */
 header li {
     display: inline;
-    padding:0px 50px;
-    word-spacing: 12px;
+    padding:0px 30px;
+    word-spacing: 8px;
 }
 
 /* Header - List - Links */
 header li a {
-    
+    border-radius:2em;
+    text-decoration:none;
+    font-weight:300;
+    font-size: larger;
+    padding: 12px;
+    background-color: #575BFD;
+    color:#FFFFFF;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    transition: all 0.2s;
+}
+
+/* Header - List - Links - Hover */
+header li a:hover {
+    filter: brightness(1.5);
+    color:#FFFFFF;
+
 }
