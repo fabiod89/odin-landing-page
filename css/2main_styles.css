@@ -1,0 +1,56 @@
+/* Main */
+main {
+    padding: 6% 16%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Main - Content (Left Side) */
+main .content {
+
+}
+
+/* Main - Content - All */
+main .content * {
+    font-size: 54px;
+}
+/* Main - Content - H1 */
+main .content h1 {
+    font-size: 68px;
+    color: #170C89;
+}
+
+/* Main - Content - H3 */
+main .content h3 {
+    color: #575BFD;
+    font-size: 50px;
+}
+
+/* Main - Content - P */
+main .content p {
+    font-size: 32px;
+}
+
+/* Main - Content - Button */
+main .content button {
+    display: inline-block;
+    border-radius: 100px;
+    background-color: #170C89;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+/* Main - Image (Right Side) */
+main img {
+    width:550px;
+    height: auto;
+}

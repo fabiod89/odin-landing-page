@@ -1,0 +1,27 @@
+/* Header */
+header {
+    padding: 23px 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#170C89;
+    color:white;
+    box-shadow: 5px 10px 8px #3d3d3d;
+}
+/* Header - Logo (Left side) */
+header img {
+    width:130px;
+    height: auto;
+}
+
+/* Header - List (Right side) */
+header li {
+    display: inline;
+    padding:0px 50px;
+    word-spacing: 12px;
+}
+
+/* Header - List - Links */
+header li a {
+    
+}
