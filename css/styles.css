@@ -23,7 +23,7 @@ header {
     color:white;
     box-shadow: 5px 10px 8px #3d3d3d;
 }
-/* Header - Logo (Left side) */
+/* Header - Logo */
 header img {
     width:130px;
     cursor: pointer;
@@ -31,12 +31,12 @@ header img {
     transition: all 0.3s;
 }
 
-/* Header - Logo - Hover (Left side) */
+/* Header - Logo - Hover */
 header img:hover {
     transition: all 0.3s;
 }
 
-/* Header - List (Right side) */
+/* Header - List */
 header li {
     display: inline;
     padding:0px 30px;
@@ -71,7 +71,7 @@ main {
     align-items: center;
 }
 
-/* Main - Content (Left Side) */
+/* Main - Content */
 
 /* Main - Content - H1 */
 main .content h1 {
@@ -111,12 +111,14 @@ main .content button:hover {
 
 }
 
-/* Main - Image (Right Side) */
+/* Main - Image  */
 main img {
     width:590px;
     height: auto;
 }
 
+
+/* Features */
 .features {
     background-color: white;
     padding: 6% 13%;
@@ -125,21 +127,23 @@ main img {
     align-items: center;
     text-align: center;
 }
-
+/* Features - Img */
 .features img {
     width: 190px;
     height: auto;
 }
-
+/* Features - H1 */
 .features h1 {
     margin-top: 30px;
     color: #170C89;
 }
 
+/* Features - P */
 .features p {
     margin-top: 30px;
 }
 
+/* Testimonies */
 .testimonies{
     padding: 10% 13%;
     justify-content: space-between;
@@ -147,20 +151,19 @@ main img {
     text-align: center;
 }
 
-.testimonies h1{
-    
-}
-
+/* Testimonies - H4 */
 .testimonies h4 {
     font-style: italic;
     margin-top: 30px;
 }
 
+/* Testimonies - H3 */
 .testimonies h3 {
     margin-top: 30px;
     color: #170C89;    
 }
 
+/* CTA */
 .call-to-action{
     background-color: white;
     padding: 2% 13%;
@@ -169,15 +172,14 @@ main img {
     text-align: center;
 }
 
+/* CTA - Img */
+
 .call-to-action img{
     width: 300px;
     height: auto;
 }
 
-.call-to-action h1{
-    
-}
-
+/* CTA - Button */
 .call-to-action button {
     display: inline-block;
     border-radius: 2em;
@@ -193,12 +195,13 @@ main img {
     margin: 40px 0px;
 }
 
+/* CTA - Button (Hover) */
 .call-to-action button:hover {
     filter: brightness(1.5);
 
 }
 
-/* Header - List (Right side) */
+/* Footer */
 footer {
     padding: 23px 12%;
     text-align: center;
@@ -207,6 +210,8 @@ footer {
     color:white;
     box-shadow: 5px 10px 8px #3d3d3d;
 }
+
+/* Footer - Img */
 
 footer img{
     width:60px;
