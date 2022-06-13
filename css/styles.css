@@ -65,20 +65,17 @@ header li a:hover {
 
 /* Main */
 main {
-    padding: 6% 16%;
+    padding: 8% 16%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 /* Main - Content (Left Side) */
-main .content {
-
-}
 
 /* Main - Content - H1 */
 main .content h1 {
-    font-size: 68px;
+    font-size: 60px;
     color: #170C89;
 }
 
