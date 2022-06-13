@@ -36,8 +36,6 @@ header img:hover {
     transition: all 0.3s;
 }
 
-
-
 /* Header - List (Right side) */
 header li {
     display: inline;
@@ -156,9 +154,14 @@ main img {
     
 }
 
-.testimonies p {
+.testimonies h4 {
     font-style: italic;
     margin-top: 30px;
+}
+
+.testimonies h3 {
+    margin-top: 30px;
+    color: #170C89;    
 }
 
 .call-to-action{
@@ -178,9 +181,24 @@ main img {
     
 }
 
-.call-to-action p {
-    font-style: italic;
-    margin-top: 30px;
+.call-to-action button {
+    display: inline-block;
+    border-radius: 2em;
+    background-color: #170C89;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 40px 0px;
+}
+
+.call-to-action button:hover {
+    filter: brightness(1.5);
+
 }
 
 /* Header - List (Right side) */
@@ -191,5 +209,11 @@ footer {
     background-color:#170C89;
     color:white;
     box-shadow: 5px 10px 8px #3d3d3d;
+}
+
+footer img{
+    width:60px;
+    height: auto;
+    transition: all 0.3s;
 }
 
